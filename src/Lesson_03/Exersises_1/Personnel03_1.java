@@ -1,6 +1,6 @@
-public class Personnel29_1 {
+public class Personnel03_1 {
     public static void main(String[] args) {
-        PersonnelSP29_1 Cuong = new PersonnelSP29_1();
+        PersonnelSP03_1 Cuong = new PersonnelSP03_1();
 
         Cuong.setPersonId("2055010026");
         Cuong.setFullName("Nguyễn Văn Cường");

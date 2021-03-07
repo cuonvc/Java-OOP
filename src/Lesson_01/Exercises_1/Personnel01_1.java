@@ -1,7 +1,7 @@
-public class Personnel27_1 {
+public class Personnel01_1 {
     public static void main(String[] args) {
         //profile
-        PersonnelSP27_1 Cuong = new PersonnelSP27_1();
+        PersonnelSP01_1 Cuong = new PersonnelSP01_1();
         Cuong.fullName = "Nguyễn Văn Cường";
         System.out.println("Họ và tên: " + Cuong.fullName);
         Cuong.personnelID = "CN2055010026";

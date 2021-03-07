@@ -1,4 +1,4 @@
-public class Size30 {
+public class Size04 {
     //VÍ DỤ 1(enum nằm trong class): vd về size quần áo
     enum Size {
         EXTRA_SMALL, SMALL, MEDIUM, LARGE, EXTRA_LARGE

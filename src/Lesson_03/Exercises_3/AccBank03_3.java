@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class AccBank29_3 {
+public class AccBank03_3 {
     public static void main(String[] args) {
-        AccBankSP29_3 account = new AccBankSP29_3();
+        AccBankSP03_3 account = new AccBankSP03_3();
         var input = new Scanner(System.in);
 
         //nhập thông tin tài khoản

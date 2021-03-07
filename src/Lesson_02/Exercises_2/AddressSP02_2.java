@@ -1,4 +1,4 @@
-public class AddressSP28_2 {
+public class AddressSP02_2 {
     //properties
     public String number;
     public String lane;
@@ -13,7 +13,7 @@ public class AddressSP28_2 {
 
 
     //constructor
-    public AddressSP28_2() {
+    public AddressSP02_2() {
         number = "";
         lane = "";
         road = "";
@@ -23,37 +23,37 @@ public class AddressSP28_2 {
         city = "";
     }
 
-    public AddressSP28_2(String number) {
+    public AddressSP02_2(String number) {
         this.number = number;
     }
 
-    public AddressSP28_2(String number, String lane) {
+    public AddressSP02_2(String number, String lane) {
         this(number);
         this.lane = lane;
     }
 
-    public AddressSP28_2(String number, String lane, String road) {
+    public AddressSP02_2(String number, String lane, String road) {
         this(number, lane);
         this.road = road;
     }
 
-    public AddressSP28_2(String number, String lane, String road, String neighbors) {
+    public AddressSP02_2(String number, String lane, String road, String neighbors) {
         this(number, lane, road);
         this.neighbors = neighbors;
     }
 
-    public AddressSP28_2(String number, String lane, String road, String neighbors, String commune) {
+    public AddressSP02_2(String number, String lane, String road, String neighbors, String commune) {
         this(number, lane, road, neighbors);
         this.commune = commune;
     }
 
-    public AddressSP28_2(String number, String lane, String road,
+    public AddressSP02_2(String number, String lane, String road,
                          String neighbors, String commune, String district) {
         this(number, lane, road, neighbors, commune);
         this.district = district;
     }
 
-    public AddressSP28_2(String number, String lane, String road,
+    public AddressSP02_2(String number, String lane, String road,
                          String neighbors, String commune, String district, String city) {
         this(number, lane, road, neighbors, commune, district);
         this.city = city;

@@ -1,4 +1,4 @@
-public class PersonnelSP28_1 {
+public class PersonnelSP02_1 {
     //properties: các thuộc tính
     public String id;
     public String fullName;
@@ -12,7 +12,7 @@ public class PersonnelSP28_1 {
     //constructor: các phương thức khởi tạo
 
     //mặc định: default constructor
-    public PersonnelSP28_1() {
+    public PersonnelSP02_1() {
         id = "";
         fullName = "";
         address = "";
@@ -23,42 +23,42 @@ public class PersonnelSP28_1 {
     }
 
     // 1 tham số
-    public PersonnelSP28_1(String code) {
+    public PersonnelSP02_1(String code) {
         this.id = code;
     }
 
     // 2 tham số
-    public PersonnelSP28_1(String code, String fullName) {
+    public PersonnelSP02_1(String code, String fullName) {
         this(code);
         this.fullName = fullName;
     }
 
     // 3 tham số
-    public PersonnelSP28_1(String code, String fullName, String address) {
+    public PersonnelSP02_1(String code, String fullName, String address) {
         this(code, fullName);
         this.address = address;
     }
 
     // 4 tham số
-    public PersonnelSP28_1(String code, String fullName, String address, int age) {
+    public PersonnelSP02_1(String code, String fullName, String address, int age) {
         this(code, fullName, address);
         this.age = age;
     }
 
     // 5 tham số
-    public PersonnelSP28_1(String code, String fullName, String address, int age, String phoneNumber) {
+    public PersonnelSP02_1(String code, String fullName, String address, int age, String phoneNumber) {
         this(code, fullName, address, age);
         this.phoneNumber = phoneNumber;
     }
 
     // 6 tham số
-    public PersonnelSP28_1(String code, String fullName, String address, int age, String phoneNumber, int wages) {
+    public PersonnelSP02_1(String code, String fullName, String address, int age, String phoneNumber, int wages) {
         this(code, fullName, address, age, phoneNumber);
         this.wages = wages;
     }
 
     // 7 tham số
-    public PersonnelSP28_1(String code, String fullName, String address, int age, String phoneNumber, int wages, int expYear) {
+    public PersonnelSP02_1(String code, String fullName, String address, int age, String phoneNumber, int wages, int expYear) {
         this(code, fullName, address, age, phoneNumber, wages);
         this.expYear = expYear;
     }

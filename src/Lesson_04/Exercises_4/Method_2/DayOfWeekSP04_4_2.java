@@ -1,4 +1,4 @@
-public enum DayOfWeekSP30_4_2 {
+public enum DayOfWeekSP04_4_2 {
 
     //các hằng số
     monday("Monday"), tuesday("Tuesday"), wednesday("Wednesday"),
@@ -8,7 +8,7 @@ public enum DayOfWeekSP30_4_2 {
     private String value;
 
     //constructor
-    DayOfWeekSP30_4_2 (String name) {
+    DayOfWeekSP04_4_2 (String name) {
         value = name;
     }
 

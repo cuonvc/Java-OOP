@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Animal30_2_1 {
+public class Animal04_2_1 {
     enum Annimal {
         //các hằng số
         the_Rat("tí"), the_buffalo("sửu"), the_tiger("dần"), the_cat("mão"),

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Season30_1_1 {
+public class Season04_1_1 {
     enum Season {
         //hằng số
         Spring("Mùa Xuân"), Summer("Mùa Hạ"), Fall("Mùa Thu"), Winter("Mùa Đông");

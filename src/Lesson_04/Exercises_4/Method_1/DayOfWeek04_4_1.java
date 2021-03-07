@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DayOfWeek30_4_1 {
+public class DayOfWeek04_4_1 {
     enum DayOfWeek {
         //các hằng số
         monday("Monday"), tuesday("Tuesday"), wednesday("Wednesday"),

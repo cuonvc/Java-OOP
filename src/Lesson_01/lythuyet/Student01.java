@@ -1,10 +1,10 @@
-public class Student27 {
+public class Student01 {
     //input cái lớp student vào bai27
 
     public static void main(String[] args) {
-        StudentSP27 Cuong = new StudentSP27("CN2055010026", "Nguyễn Văn Cường");
-        StudentSP27 Hoang = new StudentSP27("CN2055010026H");
-        StudentSP27 Huan = new StudentSP27();
+        StudentSP01 Cuong = new StudentSP01("CN2055010026", "Nguyễn Văn Cường");
+        StudentSP01 Hoang = new StudentSP01("CN2055010026H");
+        StudentSP01 Huan = new StudentSP01();
 
 
         //chạy thử để biết dặc điểm của từng bug

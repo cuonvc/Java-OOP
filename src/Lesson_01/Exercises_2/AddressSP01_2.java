@@ -1,4 +1,4 @@
-public class AddressSP27_2 {
+public class AddressSP01_2 {
     //properties (các thuộc tính)
     public String apartmentNumber;
     public String neighbors;
@@ -9,7 +9,7 @@ public class AddressSP27_2 {
 
 
     //constructors (khởi tạo)
-    public AddressSP27_2(String apartmentNumber, String neighbors, String village, String commune, String district,
+    public AddressSP01_2(String apartmentNumber, String neighbors, String village, String commune, String district,
                          String province) {
         this.apartmentNumber = apartmentNumber;
         this.neighbors = neighbors;

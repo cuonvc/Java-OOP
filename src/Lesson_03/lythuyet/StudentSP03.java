@@ -1,4 +1,4 @@
-public class StudentSP29 {
+public class StudentSP03 {
 //properties (các thuộc tính)
     private String studentId;
     private String fullName;

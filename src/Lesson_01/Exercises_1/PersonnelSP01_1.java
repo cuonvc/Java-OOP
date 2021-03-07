@@ -1,4 +1,4 @@
-public class PersonnelSP27_1 {
+public class PersonnelSP01_1 {
     //properties (các thuộc tính)
     public String personnelID;
     public String fullName;

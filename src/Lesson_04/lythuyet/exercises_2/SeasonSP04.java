@@ -1,4 +1,4 @@
-public enum SeasonSP30 {
+public enum SeasonSP04 {
     //VÍ DỤ 2(season): TẠO ENUM BÊN NGOÀI LỚP(CLASS) VÀ KẾT HỢP VỚI MỘT CLASS KHÁC ĐỂ HIỂN THỊ NỘI DUNG
 
 
@@ -6,7 +6,7 @@ public enum SeasonSP30 {
     SPRING("MÙA XUÂN"), SUMMER("MÙA HẠ"), FALL("MÙA THU"), WINTER("MÙA ĐÔNG");
 
     //khởi tạo (constructor)
-    SeasonSP30(String name) {
+    SeasonSP04(String name) {
         value = name;
     }
     //thuộc tính (properties)

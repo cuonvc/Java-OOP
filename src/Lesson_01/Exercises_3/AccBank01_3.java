@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class AccBank27_3 {
+public class AccBank01_3 {
     public static void main(String[] args) {
-        AccBankSP27_3 acc = new AccBankSP27_3();
+        AccBankSP01_3 acc = new AccBankSP01_3();
         var input = new Scanner(System.in);
 
         System.out.println("Nhập số tài khoản của bạn: ");

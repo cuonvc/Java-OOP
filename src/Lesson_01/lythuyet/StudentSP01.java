@@ -1,4 +1,4 @@
-public class StudentSP27 {
+public class StudentSP01 {
     //Properties (các thuộc tính)
     public String fullName;
     public String studentId;
@@ -10,7 +10,7 @@ public class StudentSP27 {
 
 
     //Constructors (khởi tạo) : tên của constructors phải trùng với tên của lớp
-    public StudentSP27() {
+    public StudentSP01() {
         fullName = "";
         studentId = "";
         age = 0;
@@ -19,12 +19,12 @@ public class StudentSP27 {
     }
 
     //hoặc
-    public StudentSP27(String id) {
+    public StudentSP01(String id) {
         studentId = id;
     }
 
     //hoặc
-    public StudentSP27(String id, String name) {
+    public StudentSP01(String id, String name) {
         studentId = id;
         fullName = name;
     }

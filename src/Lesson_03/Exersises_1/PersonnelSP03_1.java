@@ -1,4 +1,4 @@
-public class PersonnelSP29_1 {
+public class PersonnelSP03_1 {
 //properties (các thuộc tính)
     private String personId;
     private String fullName;
@@ -13,7 +13,7 @@ public class PersonnelSP29_1 {
 
 //constructor (các phương thức khởi tạo)
     // 0 tham số (default constructor)
-    public PersonnelSP29_1() {
+    public PersonnelSP03_1() {
         personId = "";
         fullName = "";
         address = "";
@@ -24,42 +24,42 @@ public class PersonnelSP29_1 {
     }
 
     // 1 tham số
-    public PersonnelSP29_1(String personId) {
+    public PersonnelSP03_1(String personId) {
         this.personId = personId;
     }
 
     // 2 tham số
-    public PersonnelSP29_1(String personId, String fullName) {
+    public PersonnelSP03_1(String personId, String fullName) {
         this(personId);
         this.fullName = fullName;
     }
 
     // 3 tham số
-    public PersonnelSP29_1(String personId, String fullName, String address) {
+    public PersonnelSP03_1(String personId, String fullName, String address) {
         this(personId, fullName);
         this.address = address;
     }
 
     // 4 tham số
-    public PersonnelSP29_1(String personId, String fullName, String address, int age) {
+    public PersonnelSP03_1(String personId, String fullName, String address, int age) {
         this(personId, fullName, address);
         this.age = age;
     }
 
     // 5 tham số
-    public PersonnelSP29_1(String personId, String fullName, String address, int age, String phoneNumber) {
+    public PersonnelSP03_1(String personId, String fullName, String address, int age, String phoneNumber) {
         this(personId, fullName, address, age);
         this.phoneNumber = phoneNumber;
     }
 
     // 6 tham số
-    public PersonnelSP29_1(String personId, String fullName, String address, int age, String phoneNumber, long wages) {
+    public PersonnelSP03_1(String personId, String fullName, String address, int age, String phoneNumber, long wages) {
         this(personId, fullName, address, age, phoneNumber);
         this.wages = wages;
     }
 
     // 7 tham số
-    public PersonnelSP29_1(String personId, String fullName, String address, int age, String phoneNumber, long wages, int expYear) {
+    public PersonnelSP03_1(String personId, String fullName, String address, int age, String phoneNumber, long wages, int expYear) {
         this(personId, fullName, address, age, phoneNumber, wages);
         this.expYear = expYear;
     }

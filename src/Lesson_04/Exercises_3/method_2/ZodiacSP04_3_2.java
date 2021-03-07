@@ -1,4 +1,4 @@
-public enum ZodiacSP30_3_2 {
+public enum ZodiacSP04_3_2 {
     //các hằng số
     aries("bạch dương"), taurus("kim ngưu"), gemini("song tử"), cancer("cự giải"),
     leo("sư tử"), virgo("xử nữ"), libra("thiên bình"), scorpius("bọ cạp"),
@@ -8,7 +8,7 @@ public enum ZodiacSP30_3_2 {
     private String value;
 
     //constructor
-    ZodiacSP30_3_2(String name) {
+    ZodiacSP04_3_2(String name) {
         value = name;
     }
 

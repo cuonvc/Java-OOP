@@ -1,4 +1,4 @@
-public class AddressSP29_2 {
+public class AddressSP03_2 {
 //properties (các thuộc tính)
     private String number;
     private String lane;
@@ -14,7 +14,7 @@ public class AddressSP29_2 {
 //constructor
 
     //default constructor
-    public AddressSP29_2() {
+    public AddressSP03_2() {
         number = "";
         lane = "";
         road = "";
@@ -25,37 +25,37 @@ public class AddressSP29_2 {
     }
 
     //constructor 1 tham số
-    public AddressSP29_2(String number) {
+    public AddressSP03_2(String number) {
         this.number = number;
     }
     //constructor 2 tham số
-    public AddressSP29_2(String number, String lane) {
+    public AddressSP03_2(String number, String lane) {
         this(number);
         this.lane = lane;
     }
     //constructor 3 tham số
-    public AddressSP29_2(String number, String lane, String road) {
+    public AddressSP03_2(String number, String lane, String road) {
         this(number, lane);
         this.road = road;
     }
     //constructor 4 tham số
-    public AddressSP29_2(String number, String lane, String road, String neighbors) {
+    public AddressSP03_2(String number, String lane, String road, String neighbors) {
         this(number, lane, road);
         this.neighbors = neighbors;
     }
     //constrcutor 5 tham số
-    public AddressSP29_2(String number, String lane, String road, String neighbors, String commune) {
+    public AddressSP03_2(String number, String lane, String road, String neighbors, String commune) {
         this(number, lane, road, neighbors);
         this.commune = commune;
     }
     //constructor 6 tham số
-    public AddressSP29_2(String number, String lane, String road,
+    public AddressSP03_2(String number, String lane, String road,
                          String neighbors, String commune, String district) {
         this(number, lane, road, neighbors, commune);
         this.district = district;
     }
     //constructor 7 tham số
-    public AddressSP29_2(String number, String lane, String road,
+    public AddressSP03_2(String number, String lane, String road,
                          String neighbors, String commune, String district, String city) {
         this(number, lane, road, neighbors, commune, district);
         this.city = city;

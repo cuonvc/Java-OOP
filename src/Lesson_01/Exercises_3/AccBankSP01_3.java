@@ -1,4 +1,4 @@
-public class AccBankSP27_3 {
+public class AccBankSP01_3 {
     //properties (các thuộc tính)
     public String numberAcc;
     public String nameAcc;
@@ -11,7 +11,7 @@ public class AccBankSP27_3 {
 
 
     //constructor (khởi tạo);
-    public AccBankSP27_3() {
+    public AccBankSP01_3() {
         numberAcc = "";
         nameAcc = "";
         typeAcc = "";

@@ -1,6 +1,6 @@
-public class Address29_2 {
+public class Address03_2 {
     public static void main(String[] args) {
-        AddressSP29_2 diachi = new AddressSP29_2();
+        AddressSP03_2 diachi = new AddressSP03_2();
 
         diachi.setNumber("12abc");
         diachi.setLane("267");

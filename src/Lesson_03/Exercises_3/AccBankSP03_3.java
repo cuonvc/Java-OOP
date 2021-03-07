@@ -1,4 +1,4 @@
-public class AccBankSP29_3 {
+public class AccBankSP03_3 {
 //các thuộc tính (properties)
     private String number;
     private String name;
@@ -13,7 +13,7 @@ public class AccBankSP29_3 {
 
 //constructor (khởi tạo)
     //khởi tạo mặc định (default constructor)
-    public AccBankSP29_3() {
+    public AccBankSP03_3() {
         number = "";
         name = "";
         type = "";
@@ -23,37 +23,37 @@ public class AccBankSP29_3 {
         lastDay = "";
     }
     //constructor 1 tham số
-    public AccBankSP29_3(String number) {
+    public AccBankSP03_3(String number) {
         this.number = number;
     }
     //constructor 2 tham số
-    public AccBankSP29_3(String number, String name) {
+    public AccBankSP03_3(String number, String name) {
         this(number);
         this.name = name;
     }
     //constructor 3 tham số
-    public AccBankSP29_3(String number, String name, String type) {
+    public AccBankSP03_3(String number, String name, String type) {
         this(number, name);
         this.type = type;
     }
     //constructor 4 tham số
-    public AccBankSP29_3(String number, String name, String type, double balance) {
+    public AccBankSP03_3(String number, String name, String type, double balance) {
         this(number, name, type);
         this.balance = balance;
     }
     //constructor 5 tham số
-    public AccBankSP29_3(String number, String name, String type, double balance, String bank) {
+    public AccBankSP03_3(String number, String name, String type, double balance, String bank) {
         this(number, name, type, balance);
         this.bank = bank;
     }
     //constructor 6 tham số
-    public AccBankSP29_3(String number, String name, String type, double balance,
+    public AccBankSP03_3(String number, String name, String type, double balance,
                          String bank, String firstDay) {
         this(number, name, type, balance, bank);
         this.firstDay = firstDay;
     }
     //constructor 7 tham số
-    public AccBankSP29_3(String number, String name, String type, double balance,
+    public AccBankSP03_3(String number, String name, String type, double balance,
                          String bank, String firstDay, String lastDay) {
         this(number, name, type, balance, bank, firstDay);
         this.lastDay = lastDay;

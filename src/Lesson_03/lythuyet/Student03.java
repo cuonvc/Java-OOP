@@ -1,6 +1,6 @@
-public class Student29 {
+public class Student03 {
     public static void main(String[] args) {
-        StudentSP29 Cuong = new StudentSP29();
+        StudentSP03 Cuong = new StudentSP03();
 
         Cuong.setFullName("Nguyễn Văn Cường");  // set là để điền thông tin
         System.out.println("Họ và tên: " + Cuong.getFullName()); // get là để lấy (hiển thị) thông tin

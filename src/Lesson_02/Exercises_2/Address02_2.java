@@ -1,8 +1,8 @@
-public class Address28_2 {
+public class Address02_2 {
     public static void main(String[] args) {
         //hiển thị với default constructor
         System.out.println("==============================default constructor==================================");
-        AddressSP28_2 show = new AddressSP28_2();
+        AddressSP02_2 show = new AddressSP02_2();
         show.number = "12";
         show.lane = "267";
         show.road = "abcxyz";
@@ -16,20 +16,20 @@ public class Address28_2 {
 
 
         System.out.println("===============================constructor 1 tham số=================================");
-        AddressSP28_2 show1 = new AddressSP28_2("12");
+        AddressSP02_2 show1 = new AddressSP02_2("12");
         System.out.println(show1.number);
 
 
 
         System.out.println("===============================constructor 2 tham số=================================");
-        AddressSP28_2 show2 = new AddressSP28_2("12", "267");
+        AddressSP02_2 show2 = new AddressSP02_2("12", "267");
         System.out.println(show2.number);
         System.out.println(show2.lane);
 
 
 
         System.out.println("===============================constructor 3 tham số=================================");
-        AddressSP28_2 show3 = new AddressSP28_2("12", "267", "abcxyz");
+        AddressSP02_2 show3 = new AddressSP02_2("12", "267", "abcxyz");
         System.out.println(show3.number);
         System.out.println(show3.lane);
         System.out.println(show3.road);
@@ -41,7 +41,7 @@ public class Address28_2 {
 
 
         System.out.println("================================constructor 7 tham số================================");
-        AddressSP28_2 show7 = new AddressSP28_2("12", "267", "abcxyz", "Ba Đông",
+        AddressSP02_2 show7 = new AddressSP02_2("12", "267", "abcxyz", "Ba Đông",
                 "Phan Sào Nam", "Phù Cừ", "Hưng Yên");
         System.out.println(show7.fullAddress());
     }

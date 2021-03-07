@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Zodiac30_3_1 {
+public class Zodiac04_3_1 {
     enum Zodiac {
         //các hằng số
         aries("bạch dương"), taurus("kim ngưu"), gemini("song tử"), cancer("cự giải"),

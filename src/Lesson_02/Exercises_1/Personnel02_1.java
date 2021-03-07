@@ -1,10 +1,10 @@
-public class Personnel28_1 {
+public class Personnel02_1 {
     public static void main(String[] args) {
         // gọi các phương thức khởi tạo khác nhau để tạo đối tượng
         // lưu ý rằng ở đây mỗi lần gọi constructor sẽ tạo một đối tượng
 
         //đối tượng 0
-        PersonnelSP28_1 person = new PersonnelSP28_1();
+        PersonnelSP02_1 person = new PersonnelSP02_1();
 
         System.out.println("===================================================================");
         System.out.println("đối tượng 1 không thể hiển thị vì đang được khởi tạo mặc định (default constructor)");
@@ -13,7 +13,7 @@ public class Personnel28_1 {
 
 
         //đối tượng 1
-        PersonnelSP28_1 person1 = new PersonnelSP28_1("2055010026");
+        PersonnelSP02_1 person1 = new PersonnelSP02_1("2055010026");
 
         System.out.println("===================================================================");
         System.out.println("mã nhân viên: " + person1.id);
@@ -22,7 +22,7 @@ public class Personnel28_1 {
 
 
         //đối tượng 2
-        PersonnelSP28_1 person2 = new PersonnelSP28_1("2055010026", "Nguyễn Văn Cường");
+        PersonnelSP02_1 person2 = new PersonnelSP02_1("2055010026", "Nguyễn Văn Cường");
 
         System.out.println("===================================================================");
         System.out.println("mã nhân viên: " + person2.id);
@@ -32,7 +32,7 @@ public class Personnel28_1 {
 
 
         //đối tượng 3
-        PersonnelSP28_1 person3 = new PersonnelSP28_1("2055010026", "Nguyễn Văn Cường",
+        PersonnelSP02_1 person3 = new PersonnelSP02_1("2055010026", "Nguyễn Văn Cường",
                 "Hưng Yên");
 
         System.out.println("===================================================================");
@@ -45,7 +45,7 @@ public class Personnel28_1 {
 
 
         //đối tượng 4
-        PersonnelSP28_1 person4 = new PersonnelSP28_1("2055010026", "Nguyễn Văn Cường",
+        PersonnelSP02_1 person4 = new PersonnelSP02_1("2055010026", "Nguyễn Văn Cường",
                 "Hưng Yên", 18);
 
         System.out.println("===================================================================");
@@ -60,7 +60,7 @@ public class Personnel28_1 {
 
 
         //đối tượng 5
-        PersonnelSP28_1 person5 = new PersonnelSP28_1("2055010026", "Nguyễn Văn Cường",
+        PersonnelSP02_1 person5 = new PersonnelSP02_1("2055010026", "Nguyễn Văn Cường",
                 "Hưng Yên", 18, "0987654321");
 
         System.out.println("===================================================================");
@@ -76,7 +76,7 @@ public class Personnel28_1 {
 
 
         //đối tượng 6
-        PersonnelSP28_1 person6 = new PersonnelSP28_1("2055010026", "Nguyễn Văn Cường",
+        PersonnelSP02_1 person6 = new PersonnelSP02_1("2055010026", "Nguyễn Văn Cường",
                 "Hưng Yên", 18, "0987654321", 20000000);
 
         System.out.println("===================================================================");
@@ -92,7 +92,7 @@ public class Personnel28_1 {
 
 
         //đối tượng 7
-        PersonnelSP28_1 person7 = new PersonnelSP28_1("2055010026", "Nguyễn Văn Cường",
+        PersonnelSP02_1 person7 = new PersonnelSP02_1("2055010026", "Nguyễn Văn Cường",
                 "Hưng Yên", 18, "0987654321", 20000000, 3);
 
         System.out.println("===================================================================");
