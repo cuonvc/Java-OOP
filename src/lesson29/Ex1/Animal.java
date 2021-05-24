@@ -78,12 +78,12 @@ public abstract class Animal {
     }
 
 
-    protected abstract void eat(String food);
+     abstract void eat(String food);
 
-    protected abstract void sleep();
+     abstract void sleep();
 
-    protected abstract void move();
+     abstract void move();
 
-    protected abstract void relax();
+     abstract void relax();
 
 }

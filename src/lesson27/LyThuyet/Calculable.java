@@ -48,3 +48,4 @@ class Calculator implements Calculable {
         System.out.println(a + " / " + b + " = " + calculable.div(a, b));
     }
 }
+

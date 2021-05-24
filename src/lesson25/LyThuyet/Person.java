@@ -8,6 +8,7 @@ public abstract class Person {
     private String address;
     private Date dayOfBirth;
 
+
     // ...
 
     //cách viết phương thức abstract 1
@@ -26,7 +27,7 @@ class Student extends Person {
     // ...
 
 
-    //nếu lớp cha là abstract class thì lớp con bắt buộc cũng phải là abstract class hoặc phải implement đầy đủ các
+    //nếu lớp cha có abstract method thì lớp con bắt buộc cũng phải là abstract class hoặc phải implement đầy đủ các
     //phương thức abstract từ lớp cha xuống
 
     @Override

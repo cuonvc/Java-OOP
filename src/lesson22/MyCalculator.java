@@ -1,5 +1,6 @@
 package lesson22;
 //ví dụ về các phương thức overload
+//ví vụ về tính đa hình
 public class MyCalculator {
     /**
      * phương thức Overload với tham số kiểu int

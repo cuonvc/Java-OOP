@@ -1,4 +1,4 @@
-package lesson18.ex3;
+package lesson18.Ex3;
 
 import java.util.Date;
 
@@ -36,7 +36,7 @@ public class Person {
     }
 
     public String getFullName() {
-        return fullName.getLastName() + " " + fullName.getMidName() + fullName.getFirstName();
+        return fullName.lastName + " " + fullName.midName + fullName.firstName;
     }
 
     public void setFullName(String fullName) {
@@ -95,28 +95,28 @@ public class Person {
 
         }
 
-        public String getFirstName() {
-            return firstName;
-        }
-
-        public void setFirstName(String firstName) {
-            this.firstName = firstName;
-        }
-
-        public String getLastName() {
-            return lastName;
-        }
-
-        public void setLastName(String lastName) {
-            this.lastName = lastName;
-        }
-
-        public String getMidName() {
-            return midName;
-        }
-
-        public void setMidName(String midName) {
-            this.midName = midName;
-        }
+//        public String getFirstName() {
+//            return firstName;
+//        }
+//
+//        public void setFirstName(String firstName) {
+//            this.firstName = firstName;
+//        }
+//
+//        public String getLastName() {
+//            return lastName;
+//        }
+//
+//        public void setLastName(String lastName) {
+//            this.lastName = lastName;
+//        }
+//
+//        public String getMidName() {
+//            return midName;
+//        }
+//
+//        public void setMidName(String midName) {
+//            this.midName = midName;
+//        }
     }
 }

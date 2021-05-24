@@ -33,7 +33,7 @@ public class Fish extends Animal {
     }
 
     @Override
-    void eat(String food) {
+    public void eat(String food) {
         System.out.println("Cá ăn " + food);
     }
 
